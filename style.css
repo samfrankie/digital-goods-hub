@@ -1,0 +1,181 @@
+/* Basic Reset and Typography */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Layout */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    gap: 2rem;
+}
+
+.hero {
+    position: relative;
+    width: 65%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.product-item {
+    text-align: center;
+    flex: 1;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Elements */
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.25rem 0 0 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.social-links-desktop a img {
+    height: 24px;
+    width: 24px;
+    margin-left: 1rem;
+}
+
+.social-links-mobile {
+    display: none;
+}
+
+/* Sidebar Cards */
+.category-card {
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-weight: 500;
+}
+
+.category-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Color Scheme from Mockup */
+.new-arrivals {
+    background-color: #fefcfb;
+}
+
+.best-sellers {
+    background-color: #f5f0ec;
+}
+
+.tutorials-tips {
+    background-color: #d1b59a;
+    color: #fff;
+}
+
+.tutorials-tips p {
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 1rem 5%;
+        text-align: center;
+    }
+
+    .main-nav {
+        margin: 1rem 0;
+    }
+
+    .social-links-desktop {
+        display: none;
+    }
+
+    .social-links-mobile {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .hero,
+    .sidebar {
+        width: 100%;
+    }
+}
