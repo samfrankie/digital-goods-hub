@@ -1,5 +1,5 @@
 ```
-# Sam Pratic - Graphic Design & Photography Portfolio
+# Sam Pratico - Graphic Design & Photography Portfolio
 
 Welcome to my portfolio! This repository hosts the code for my personal website, a place where I showcase a curated collection of my work in graphic design and photography.
 
@@ -33,14 +33,14 @@ This website was built using the following technologies:
 
 ## 🚀 Getting Started
 
-To view the portfolio, simply visit the live website [here](https://samfrankie.github.io/digital-goods-hub/).
+To view the portfolio, simply visit the live website [here](https://your-github-username.github.io/your-repository-name/).
 
 If you want to run a local copy, follow these steps:
 
 1.  Clone the repository:
-    `git clone https://github.com/samfrankie/digital-goods-hub.git`
+    `git clone https://github.com/your-github-username/your-repository-name.git`
 2.  Navigate to the project directory:
-    `cd digital-goods-hub`
+    `cd your-repository-name`
 3.  Open the `index.html` file in your preferred web browser.
 
 ---
@@ -51,7 +51,7 @@ I'm always open to new opportunities and collaborations. Feel free to connect wi
 
 * **Website:** [Your Portfolio URL]
 * **LinkedIn:** [Your LinkedIn Profile URL]
-* **Email:** samfrankiep97@gmail.com
+* **Email:** your.email@example.com
 
 ---
 
