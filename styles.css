@@ -45,7 +45,6 @@ body {
 .top-projects { grid-area: 3 / 1 / 4 / 2; }
 .project-categories { grid-area: 3 / 2 / 4 / 3; }
 .global-reach { grid-area: 3 / 3 / 4 / 4; }
-.footer { grid-area: 4 / 1 / 5 / 4; margin-top: 2rem; }
 
 /* General Styles */
 h1, h2, h3 {
@@ -225,4 +224,22 @@ h1, h2, h3 {
     .main-nav {
         margin-top: 1rem;
     }
+}
+
+/* Styling for the new social media footer */
+.social-footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.social-footer a {
+    color: var(--text-color);
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-footer a:hover {
+    color: var(--main-color);
 }
