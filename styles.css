@@ -52,7 +52,7 @@ h1, h2, h3 {
     font-family: 'Anton', sans-serif;
     color: var(--main-color);
     letter-spacing: 3.5px;  /* Adds 3.5 pixels of space between letters */
-    word-spacing: 8px;   /* Adds 8 pixels of space between words */
+    word-spacing: 6px;   /* Adds 6 pixels of space between words */
 }
 
 .header {
