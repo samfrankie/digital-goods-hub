@@ -51,8 +51,8 @@ body {
 h1, h2, h3 {
     font-family: 'Anton', sans-serif;
     color: var(--main-color);
-    letter-spacing: 4px;  /* Adds 4 pixels of space between letters */
-    word-spacing: 10px;   /* Adds 10 pixels of space between words */
+    letter-spacing: 3.5px;  /* Adds 3.5 pixels of space between letters */
+    word-spacing: 8px;   /* Adds 8 pixels of space between words */
 }
 
 .header {
