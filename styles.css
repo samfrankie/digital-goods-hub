@@ -228,11 +228,16 @@ h1, h2, h3 {
 }
 
 /* Styling for the new social media footer */
+/* Styling for the new social media footer */
 .social-footer {
     display: flex;
     justify-content: center;
     gap: 2rem;
     padding-top: 2rem;
+    
+    /* Add these lines to fix the positioning */
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .social-footer a {
