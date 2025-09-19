@@ -34,7 +34,7 @@ body {
     position: relative;
     overflow: hidden;
         /* Add this line to round the corners */
-    border-radius: 4px;
+    border-radius: 15px;
 }
 
 /* Grid Areas */
