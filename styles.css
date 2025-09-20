@@ -254,3 +254,22 @@ h1, h2, h3 {
 .social-footer a:hover {
     color: var(--main-color);
 }
+
+
+.homepage-container {
+    padding: 2rem;
+    text-align: center;
+    /* You can add a background image or specific styles here */
+    color: var(--text-color);
+}
+
+.homepage-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--main-color);
+}
+
+.homepage-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
